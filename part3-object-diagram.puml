@@ -1,13 +1,13 @@
 @startuml
-object "c1 : Course" as course {
+object "<u>c1 : Course</u>" as course {
     name = "CS5800 - Advanced Software Engineering"
 }
-object "c1Instructor : Instructor" as instructor {
+object "<u>c1Instructor : Instructor</u>" as instructor {
     firstName = "Nima"
     lastName = "Davarpanah"
     officeNumber = "3-2636"
 }
-object "c1Textbook : Textbook" as textbook {
+object "<u>c1Textbook : Textbook</u>" as textbook {
     title = "CleanCode:A Handbook of Agile Software Craftsmanship"
     author = "Robert Cecil Martin"
     publisher = "Pearson"

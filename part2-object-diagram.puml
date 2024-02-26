@@ -1,19 +1,19 @@
 @startuml
-object "titanic : Ship" as titanic {
+object "<u>titanic : Ship</u>" as titanic {
     shipName = "Titanic"
     yearBuilt = "March31st,1909"
 }
-object "mvGemini : CruiseShip" as mvGemini {
+object "<u>mvGemini : CruiseShip</u>" as mvGemini {
     maxNumberPassengers = 100
 }
-object "mvGemini : Ship" as mvGeminiParent {
+object "<u>mvGemini : Ship</u>" as mvGeminiParent {
     shipName = "MVGemini"
     yearBuilt = "May30th,1991"
 }
-object "everGiven : CargoShip" as everGiven {
+object "<u>everGiven : CargoShip</u>" as everGiven {
     cargoCapacityInTonnage = 220940
 }
-object "everGiven : Ship" as everGivenParent {
+object "<u>everGiven : Ship</u>" as everGivenParent {
     shipName = "EverGiven"
     yearBuilt = "September25th,2018"
 }

@@ -1,32 +1,32 @@
 @startuml
-object "phpDemo1 : Folder" as phpDemo1 {
+object "<u>phpDemo1 : Folder</u>" as phpDemo1 {
     name = "php_demo1"
 }
-object "sourceFiles : Folder" as sourceFiles {
+object "<u>sourceFiles : Folder</u>" as sourceFiles {
     name = "Source Files"
 }
-object "includePath : Folder" as includePath {
+object "<u>includePath : Folder</u>" as includePath {
     name = "Include Path"
 }
-object "remoteFiles : Folder" as remoteFiles {
+object "<u>remoteFiles : Folder</u>" as remoteFiles {
     name = "Remote Files"
 }
-object "phalcon : Folder" as phalcon {
+object "<u>phalcon : Folder</u>" as phalcon {
     name = ".phalcon"
 }
-object "cache : Folder" as cache {
+object "<u>cache : Folder</u>" as cache {
     name = "cache"
 }
-object "public : Folder" as public {
+object "<u>public : Folder</u>" as public {
     name = "public"
 }
-object "htaccess : File" as htaccess {
+object "<u>htaccess : File</u>" as htaccess {
     name = ".htaccess"
 }
-object "htrouter : File" as htrouter {
+object "<u>htrouter : File</u>" as htrouter {
     name = ".htrouter.php"
 }
-object "index : File" as index {
+object "<u>index : File</u>" as index {
     name = "index.html"
 }
 
